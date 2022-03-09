@@ -56,7 +56,7 @@ h2{
 }
 .arrowSVG {
     position: absolute;
-    top: 32px;
+    top: 25px;
     left: 350px;
     padding: 7px;
 }
