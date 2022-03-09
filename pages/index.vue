@@ -3,6 +3,8 @@
     <NavBar />
     <BackgroundImagenLayout cover-img="url('/business-people-analyzing-statistics-financial.jpg')" />
     <SectionWhy />
+    <OurServices />
+    <CardsItem />
     <h1 class="mt-5 text-center">
       Esto en NUXT
     </h1>
