@@ -6,6 +6,8 @@
     <h1 class="mt-5 text-center">
       Esto en NUXT
     </h1>
+    <SideCard :valid="true" url="business-people-at-the-office.jpg " />
+    <SideCard :valid="false" url="spm-cursos.jpg" />
   </div>
 </template>
 
