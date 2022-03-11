@@ -7,7 +7,9 @@
     <b-row>
       <b-col sm="12" md="6" class="p-4 font-weight-bold">
         <div>
-          Estadísticamente hablando, las actividades menos importantes ocupan el 50% de la jornada laboral aproximadamente. Esta mala gestión del tiempo es causada por diferentes factores como:
+          Estadísticamente hablando, las actividades menos importantes ocupan el
+          50% de la jornada laboral aproximadamente. Esta mala gestión del
+          tiempo es causada por diferentes factores como:
         </div>
         <div>
           <ul class="my-5 list-red">
@@ -17,15 +19,22 @@
           </ul>
         </div>
         <div>
-          SCS Projeckt está enfocada 100% en la necesidad del cliente, consiguiendo mayor productividad y eficiencia.
+          SCS Projeckt está enfocada 100% en la necesidad del cliente,
+          consiguiendo mayor productividad y eficiencia.
         </div>
       </b-col>
       <b-col sm="12" md="6" class="p-4">
         <div>
           <ul class="my-3 list-gray">
-            <li>Mejor toma de decisiones<br><span>Claridad y consistencia</span></li>
-            <li>Menos plazos ajustados<br><span>Calendarios y horarios predeterminados</span></li>
-            <li>Mayor calidad de trabajo<br><span>Correcta gestión de tiempos y seguimiento</span></li>
+            <li>
+              Mejor toma de decisiones<br><span>Claridad y consistencia</span>
+            </li>
+            <li>
+              Menos plazos ajustados<br><span>Calendarios y horarios predeterminados</span>
+            </li>
+            <li>
+              Mayor calidad de trabajo<br><span>Correcta gestión de tiempos y seguimiento</span>
+            </li>
           </ul>
         </div>
       </b-col>
@@ -35,8 +44,9 @@
     <b-row>
       <b-col sm="12" class="text-center paragraph-center p-2">
         <span>Ponte en contacto con nosotros, queremos conocer tu necesidad</span>
-        <div :style="{color:'#DF0101'}" class="font-weight-bold">
-          En SCS PROJECKT nuestro único objetivo es ayudar a las empresas a ser más productivas
+        <div :style="{ color: '#DF0101' }" class="font-weight-bold">
+          En SCS PROJECKT nuestro único objetivo es ayudar a las empresas a ser
+          más productivas
         </div>
         <span>Cotizamos sin costo y brindamos la propuesta más competitiva</span>
       </b-col>
@@ -55,18 +65,18 @@ export default {
 ul {
   list-style: none;
 }
-.list-red > li::before{
+.list-red > li::before {
   content: "\2022";
-  color: #DF0101;
-  padding: .2rem;
+  color: #df0101;
+  padding: 0.2rem;
   line-height: 17px;
   font-size: 35px;
   vertical-align: -4px;
 }
-.list-gray > li{
-    font-weight: 700;
-    font-size: 20px;
-    margin: 19px 0px 19px 0px;
+.list-gray > li {
+  font-weight: 700;
+  font-size: 20px;
+  margin: 19px 0px 19px 0px;
 }
 .list-gray > li::before{
   content: "";
@@ -79,11 +89,11 @@ ul {
   background-size: cover;
   background-position: center center;
 }
-.list-gray > li > span{
+.list-gray > li > span {
   padding-left: 23px;
-  color: #DF0101;
+  color: #df0101;
 }
-.paragraph-center{
+.paragraph-center {
   font-size: 32px;
 }
 .paragraph-center > span {

@@ -90,6 +90,7 @@
 <script>
 export default {
   name: 'BackgroundImagenLayout',
+  // eslint-disable-next-line vue/require-default-prop
   props: { coverImg: String }
 }
 </script>

@@ -3,6 +3,8 @@
     <NavBar />
     <BackgroundImagenLayout cover-img="url('/business-people-analyzing-statistics-financial.jpg')" />
     <SectionWhy />
+    <OurServices />
+    <CardsItem />
     <SideCard :valid="true" url="business-people-at-the-office.jpg " />
     <SideCard :valid="false" url="spm-cursos.jpg" />
     <BackgroundImagenNewLayout cover-img="url('/spm-asesoramos.jpg')" />
@@ -19,8 +21,10 @@
 </template>
 
 <script>
+import CardsItem from '~/components/CardsItem.vue'
 export default {
   name: 'IndexPage',
+  components: { CardsItem },
   data () {
     return {
       title: 'SCS Projeckt'
