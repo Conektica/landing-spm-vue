@@ -1,8 +1,8 @@
 <template>
-  <div class="container-fluid">
-    <div class="row">
-      <div id="col-1" class="col" />
-      <div id="col-2" class="col">
+  <b-container fluid>
+    <b-row>
+      <b-col id="col-1" />
+      <b-col id="col-2">
         <a href="#">
           <h2>
             NUESTROS <br> SERVICIOS
@@ -17,13 +17,13 @@
               <path d="M5 3L42 67.75L5 132.5" stroke="#DF0101" stroke-width="10" />
             </svg>
           </h2>
-          <div class="info">
+          <div class="text">
             SCS Projeckt cuenta con experiencia en varias empresas de manufactura de clase mundial. Somos efectivos y proactivos en los desarrollos de proyectos, con conocimientos en campos de cadena de suministro, y enfocados a entrega de objetivos.
           </div>
         </a>
-      </div>
-    </div>
-  </div>
+      </b-col>
+    </b-row>
+  </b-container>
 </template>
 
 <script>
@@ -60,7 +60,7 @@ h2{
     left: 350px;
     padding: 7px;
 }
-.info{
+.text{
     font-size: 20px;
     font-family: 'Roboto', sans-serif;
     font-weight: 500;

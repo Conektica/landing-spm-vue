@@ -1,7 +1,6 @@
 <template>
   <!-- Full Page Intro -->
   <div
-    class="view"
     :style="{backgroundImage:coverImg, backgroundRepeat:'no-repeat', backgroundSize:'cover', backgroundPosition: 'center center'}"
   >
     <!-- Mask & flexbox options-->
@@ -9,21 +8,19 @@
       <!-- Content -->
       <div class="container">
         <!--Grid row-->
-        <div class="row mt-5">
+        <b-row class="mt-5">
           <!--Grid column-->
-          <div
-            class="col-md-6 mb-5 mt-md-0 mt-5 text-white text-center text-md-left"
-          >
+          <b-col sm="12" md="6" class="mb-5 mt-md-0 mt-5 text-white text-center text-md-left">
             <h6 class="mb-3 margin-text-p text-center">
               Te ayudamos a mitigar los impactos ocasionados por los incrementos de precio en materias primas, desabastos y gastos logísticos con nuestro servicios de <b>Solución en Cadena de Suministros y Gestión de poyectos empresariales</b>
             </h6>
             <div class="title-img my-4">
               Nuestro objetivo es darte 5% de AHORRO anual
             </div>
-          </div>
+          </b-col>
           <!--Grid column-->
-          <!--Grid column-->
-          <div class="col-md-6 col-xl-5 mb-4">
+          <!--Grid column form-->
+          <b-col sm="12" md="6" class="mb-4">
             <!--Form-->
             <div class="card mt-4">
               <div class="card-body">
@@ -71,16 +68,16 @@
               </div>
             </div>
             <!--/.Form-->
-          </div>
-          <!--Grid column-->
-        </div>
+          </b-col>
+          <!--Grid column form-->
+        </b-row>
         <!--Grid row-->
         <!--Grid row-->
-        <div class="row my-5">
-          <div class="container">
+        <b-row class="row my-5">
+          <b-col class="container">
             <br>
-          </div>
-        </div>
+          </b-col>
+        </b-row>
         <!--Grid row-->
       </div>
       <!-- Content -->

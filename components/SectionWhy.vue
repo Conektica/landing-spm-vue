@@ -78,15 +78,16 @@ ul {
   font-size: 20px;
   margin: 19px 0px 19px 0px;
 }
-.list-gray > li::before {
-  content: "\2022";
-  color: #a6a6a6;
-  font-size: 32px;
-  background: rgba(166, 166, 166, 0.5);
-  padding: 0.2rem;
-  border-radius: 50%;
-  -moz-border-radius: 50%;
-  -webkit-border-radius: 50%;
+.list-gray > li::before{
+  content: "";
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin-right: 0.7rem;
+  background-image: url(/cir-gray.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
 }
 .list-gray > li > span {
   padding-left: 23px;

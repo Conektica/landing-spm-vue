@@ -5,15 +5,26 @@
     <SectionWhy />
     <OurServices />
     <CardsItem />
-    <h1 class="mt-5 text-center">
-      Esto en NUXT
-    </h1>
+    <SideCard :valid="true" url="business-people-at-the-office.jpg " />
+    <SideCard :valid="false" url="spm-cursos.jpg" />
+    <BackgroundImagenNewLayout cover-img="url('/spm-asesoramos.jpg')" />
+    <SectionMaterials />
+    <SideRedCard :valid="false" url="desarollode-proyectos.jpg " />
+    <br><br>
+    <SideRedCard :valid="true" url="spm-capacitaciones.jpg " />
+    <br>
+    <IconsRibbon cover-img="url('/spm-colegas.jpg')" />
+    <br><br>
+    <BackgroundImagenBuilding cover-img="url('/edificio-SPM.jpg')" />
+    <BackgroundImagenFooter cover-img="url('/spm-footer.jpg')" />
   </div>
 </template>
 
 <script>
+import CardsItem from '~/components/CardsItem.vue'
 export default {
   name: 'IndexPage',
+  components: { CardsItem },
   data () {
     return {
       title: 'SCS Projeckt'
