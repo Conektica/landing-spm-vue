@@ -1,8 +1,10 @@
 <template>
   <b-container fluid>
     <b-row>
-      <b-col id="col-1" />
-      <b-col id="col-2">
+      <b-col sm="12" md="6" class="whithout-right-space whithout-left-space">
+        <b-img class="w-100 h-100" :src="url" />
+      </b-col>
+      <b-col id="col-2" sm="12" md="6">
         <a href="#">
           <h2>
             NUESTROS <br> SERVICIOS
@@ -28,15 +30,26 @@
 
 <script>
 export default {
-  name: 'OurServices'
+  name: 'OurServices',
+  data () {
+    return {
+      url: '/services.png'
+    }
+  }
 }
 </script>
 
 <style scoped>
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@700&display=swap');
-.container-fluid{
+/* .container-fluid{
     padding: 0;
     margin: 40px 0;
+} */
+.whithout-right-space {
+  padding-right: 0px !important;
+}
+.whithout-left-space {
+  padding-left: 0px !important;
 }
 #col-1{
     background-image: url('/services.png');

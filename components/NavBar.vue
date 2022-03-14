@@ -4,6 +4,11 @@
       <b-navbar-brand href="#">
         <img src="/logo-spm.png" alt="SCS Projeckt Logo" class="navbar-logo">
       </b-navbar-brand>
+      <b-navbar-nav>
+        <b-nav-item class="nav-text font-italic">
+          “Las actividades menos <br> importantes ocupan el 50% <br> de la jornada laboral”
+        </b-nav-item>
+      </b-navbar-nav>
 
       <b-navbar-toggle target="nav-collapse" />
 
@@ -34,6 +39,14 @@ export default {
 <style>
 .navbar-logo {
   width: 200px;
+}
+.nav-text{
+  font-size: 11px;
+  line-height: 16px;
+  color: #fff!important;
+}
+.nav-text:hover{
+  text-decoration: none;
 }
 .nav-centar {
   max-width: 1200px;

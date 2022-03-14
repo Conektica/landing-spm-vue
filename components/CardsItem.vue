@@ -1,9 +1,9 @@
 <template>
   <b-container fluid>
-    <b-row class="justify-content-center">
-      <b-col id="col-1" align="center" class="py-5">
+    <b-row>
+      <b-col class="py-5 gradient-box text-center" sm="6" md="3">
         <IconText cover-img="award.svg" />
-        <h2 class="titulo1">
+        <h2 class="titulo1 text-white">
           Proyectos de productividad
         </h2>
         <div class="textW">
@@ -13,7 +13,7 @@
           SCS Projeckt lo hace por ti, <span>tenemos una gran cartera de proveedores y poder de negociación con el que podemos conseguir mejores precios.</span>
         </div>
       </b-col>
-      <b-col id="col-2" align="center" class="py-5">
+      <b-col class="py-5 text-center" sm="6" md="3">
         <IconText cover-img="like.svg" />
         <h2 class="titulo2">
           Gestión de proyectos
@@ -22,7 +22,7 @@
           <span>En SCS Projeckt administramos tus proyectos de manera efectiva</span> con las áreas involucradas, dando el seguimiento que mereces y <span>consiguiendo la culminación de tus proyectos en el tiempo que necesitas.</span>
         </div>
       </b-col>
-      <b-col id="col-3" align="center" class="py-5">
+      <b-col class="py-5 text-center box-gray" sm="6" md="3">
         <IconText cover-img="grafico.svg" />
         <h2 class="titulo3">
           Desarollo de productos
@@ -31,7 +31,7 @@
           Sabemos la importancia que tiene la calidad para tus clientes, es por eso que <span>SCS Projeckt te ayuda a desarrollar nuevos productos, apegándonos a los estándares de tu empresa.</span>
         </div>
       </b-col>
-      <b-col id="col-4" align="center" class="py-5">
+      <b-col class="py-5 text-center" sm="6" md="3">
         <IconText cover-img="cuadro-de-dialogo.svg" />
         <h2 class="titulo4">
           Consultoría
@@ -51,16 +51,13 @@ export default {
 </script>
 
 <style scoped>
-.container-fluid{
-  margin-top: -40px;
-}
-#col-1{
+.gradient-box{
   background: linear-gradient(140.82deg, #FE7F7F 6.73%, #DF0101 65.83%);
 }
-#col-3{
+.box-gray{
   background: #E5E5E5;
 }
-#col-1 h2{
+.container-fluid > h2{
   font-family: 'Roboto';
   font-weight: 700;
   color: #FFFFFF;
@@ -73,14 +70,14 @@ h2{
   font-size: 26px;
 }
 h2.titulo1{
-  margin-top: 40px;
+  padding-top: 40px;
 }
 h2.titulo2 {
-    margin-top: 55px;
+  padding-top: 40px;
 }
 h2.titulo3,
 h2.titulo4 {
-    margin-top: 30px;
+  padding-top: 30px;
 }
 .textW, .textW2{
   font-family: 'Roboto';
@@ -95,10 +92,10 @@ h2.titulo4 {
   font-size: 20px;
 }
 .textW, .textB {
-    margin-top: 40px;
+  padding-top: 40px;
 }
 .textW2{
-  margin-top: 20px;
+  padding-top: 20px;
 }
 span{
   font-weight: 600;

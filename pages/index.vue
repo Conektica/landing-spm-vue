@@ -21,10 +21,8 @@
 </template>
 
 <script>
-import CardsItem from '~/components/CardsItem.vue'
 export default {
   name: 'IndexPage',
-  components: { CardsItem },
   data () {
     return {
       title: 'SCS Projeckt'
